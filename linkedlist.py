@@ -36,6 +36,7 @@ class LinkedList(object):
         self.tail = new_node
 
 
+
 def only_vowels(llist):
     """ Return a new LinkedList object containing nodes with the strings from
     the original linked list that start with vowels.
@@ -51,6 +52,23 @@ def only_vowels(llist):
 
     pass
 
+def function_one(LL):
+    # new_LL = [] 
+    new_LL = LinkedList()
+    vow = "aeiou"
+    # for node in LL:
+    current = self.head
+
+    while current is not None:
+        self.tail.lower()
+        if self.tail.startswith(vow):
+            
+
+
+    #     if node .startswith vowel:
+    #         add node to new_LL
+
+    return new_LL
 
 if __name__ == "__main__":
     import doctest

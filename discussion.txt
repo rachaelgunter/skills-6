@@ -3,15 +3,15 @@ Runtime
 
 1. Runtime for does_string_contain_letter:
 
-
+O(n)
 
 2. Runtime for duplicate_letters:
 
-
+O(n2) 
 
 3. Runtime for duplicate_letters2:
 
-
+O(2n) → O(n) 
 
 Stacks and Queues
 -----------------
@@ -21,7 +21,8 @@ Stacks and Queues
    a built-in Python list? Explain why, referencing the runtime requirements for
    Stack operations (push, pop, etc).
 
-
+a linked list if better because the runtime is  quicker (O(N)) to remove things off the front of
+the list (push and pop) then it is to iterate through a built in python list (O(n))
 
 
 
@@ -30,7 +31,8 @@ Stacks and Queues
    a built-in Python list? Explain why, referencing the runtime requirements for
    Queue methods (enqueue, dequeue, etc).
 
-
+its the same runtime to enqueue and dequeue from the ending and 
+beginning (O(1)) 
 
 Trees
 -----
@@ -38,13 +40,17 @@ Trees
 1. Using the diagram in the instructions, in what order would a Breadth First
    Search (BFS) algorithm visit each node  until finding burritos (starting at
    food)?
-
+food > italian > indian > mexican > lasagna > pizza > tikka masala > saag > BURRITOS
 
 2. Using the diagram in the instructions, In what order would a Depth First 
    Search (DFS) algorithm visit each node until finding Chicago-style (starting
    at food)? 
+food > italian > lasagna > pizza > thin crust > CHICAGO-style
 
 3. How is a binary search tree different from other trees?
+
+each node has a left and right child and has a rule for arrangement 
+good for searching fast
 
 
 

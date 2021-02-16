@@ -48,6 +48,15 @@ class Tree(object):
         """
 
         # TODO: Complete this function
+        nodes = [self]
+        list = []
+
+        while nodes:
+            current = nodes.pop(0)
+
+            if current.data == data:
+                list.append(current.data)
+                
 
         pass
 

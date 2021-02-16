@@ -5,6 +5,7 @@ def does_string_contain_letter(letter, string):
         return True
     return False
 
+# ################## O(n) ###############
 
 def duplicate_letters(string1, string2):
     """Determine whether there are duplicate letters in a string."""
@@ -19,6 +20,7 @@ def duplicate_letters(string1, string2):
         return True
     return False
 
+# ################## O(n2) ###############
 
 def duplicate_letters_2(string1, string2):
     """Return a list of duplicate letters between two strings.
@@ -34,3 +36,5 @@ def duplicate_letters_2(string1, string2):
             duplicates.add(letter)
 
     return list(duplicates)
+
+# ################## O(2n) → O(n) ###############
